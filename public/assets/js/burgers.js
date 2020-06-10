@@ -2,7 +2,7 @@ $(function() {
   $(".change-devoured").on("click", function(event) {
     var id = $(this).data("id");
     var newDevoured = $(this).data("newdevoured");
-
+    console.log(id,newDevoured)
     var newDevouredState = {
       devoured: newDevoured
     };
@@ -23,7 +23,7 @@ $(function() {
     event.preventDefault();
 
     var newBurger = {
-      burger_name: $("#bu").val().trim()
+      burger_name: $("#ca").val().trim()
     };
 
     $.ajax("/api/burgers", {
