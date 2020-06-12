@@ -4,7 +4,7 @@
 # BurgerApp
 This app can be initialized on your command line by using the following command:
 
-```node index.js```
+```node server.js```
 
 # Description:
 ```MVC based app that gives the user the ability to add burgers to a list and then classify them as being "devoured" or "not yet".```
